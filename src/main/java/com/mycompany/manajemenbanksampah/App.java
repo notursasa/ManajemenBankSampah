@@ -73,7 +73,7 @@ public class App extends Application {
     
     public static void sendDiscordNotification(String content) {
         try {
-            String webhookUrl = "https://discord.com/api/webhooks/1378089006339850401/bEDITg_0q7ZQWtt921Sg0Cbl6lOew8PC92pVMbp1qc6b-2ib-m6FED-VelUvgLhL-7lE"; // Ganti dengan Webhook kamu
+            String webhookUrl = "WEBHOOK_URL"; 
 
             String jsonPayload = "{\"content\": \"" + escapeJson(content) + "\"}";
 
