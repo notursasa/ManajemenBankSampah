@@ -1,0 +1,25 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+log/
+logs/
+*.log
+*.class
+
+# NetBeans specific
+nbproject/private/
+nbproject/project.properties
+nbproject/project.xml
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
